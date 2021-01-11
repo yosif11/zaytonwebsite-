@@ -1,0 +1,100 @@
+* body,html {
+    margin: 0;
+    padding: 0;
+    font: 1em "open sans", sans-serif;
+}
+
+body{
+    background-color: #c2b8b8;
+}
+
+
+.yosif{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+
+.yosif #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.yosif > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+} 
+
+.yosif > ul > li {
+    float: left;
+} 
+
+.yosif-item{
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.yosif-item:hover{
+    background-color: #ff0055;
+}
+
+
+.sub-contect{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+}
+
+
+.sub-contect a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.sub-drop {
+    padding: 0;
+
+}
+
+.sub-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.sub-drop ul li:hover{
+    background-color: #ff0055;
+}
+
+
+.yosif-item:focus { 
+    background-color: #ff0055; 
+}
+
+.yosif ul li:hover .sub-contect{ 
+    max-height: 400px;
+    transition: max-height 0.9s ease-in;
+    -webkit-transition: max-height 0.9s ease-in;
+    -moz-transition: max-height 0.9s ease-in;
+}
+
